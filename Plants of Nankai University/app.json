@@ -1,0 +1,42 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/second/second",
+    "pages/Gymnospermae/Gymnospermae",
+    "pages/Angiospermae/Angiospermae",
+    "pages/OtherPlants/OtherPlants",
+    "pages/qa/qa"
+  ],
+  "window": {
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "南开草木",
+    "navigationBarTextStyle": "black",
+    "backgroundColor": "#fff",
+    "enablePullDownRefresh": true
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "当季植物",
+        "iconPath": "pages/images/home.png",
+        "selectedIconPath": "pages/images/pic1.png"
+      },
+      {
+        "pagePath": "pages/second/second",
+        "text": "全部植物",
+        "iconPath": "pages/images/home.png",
+        "selectedIconPath": "pages/images/pic1.png"
+      },
+      {
+        "pagePath": "pages/qa/qa",
+        "text": "答题",
+        "iconPath": "pages/images/home.png",
+        "selectedIconPath": "pages/images/pic1.png"
+      }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

@@ -1,0 +1,10 @@
+<!--pages/index/index.wxml-->
+<view class="container">hello</view>
+<view class="container"><asd>123</asd></view>
+
+<asd>456</asd>
+<button type="primary">
+<view>点我</view>
+<view>什么都不会发生</view>
+</button>
+<image style="width: 20px; height: 20px;" mode="{{item.mode}}" src="https://i.chao.fun/biz/08a2d3a676f4f520cb99910496e48b4e.png?x-oss-process=image/resize,h_80/format,webp/quality,q_75"></image>

@@ -1,0 +1,5 @@
+/* pages/second/second.wxss */
+text{
+  font-size:12pt;
+  font-style:normal;
+}

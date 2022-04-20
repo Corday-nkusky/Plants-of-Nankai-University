@@ -1,0 +1,13 @@
+<!--pages/second/second.wxml-->
+<h1 bindtap="BindViewTapGymnospermae">
+  <image style="width: 20px; height: 20px;" mode="{{item.mode}}" src="https://i.chao.fun/biz/08a2d3a676f4f520cb99910496e48b4e.png?x-oss-process=image/resize,h_80/format,webp/quality,q_75"></image>
+  <text>裸子植物</text>
+</h1>
+<h1 bindtap="BindViewTapAngiospermae">
+  <image style="width: 20px; height: 20px;" mode="{{item.mode}}" src="https://i.chao.fun/biz/08a2d3a676f4f520cb99910496e48b4e.png?x-oss-process=image/resize,h_80/format,webp/quality,q_75"></image>
+  <text>被子植物</text>
+</h1>
+<h1 bindtap="BindViewTapOtherPlants">
+  <image style="width: 20px; height: 20px;" mode="{{item.mode}}" src="https://i.chao.fun/biz/08a2d3a676f4f520cb99910496e48b4e.png?x-oss-process=image/resize,h_80/format,webp/quality,q_75"></image>
+  <text>其他植物</text>
+</h1>

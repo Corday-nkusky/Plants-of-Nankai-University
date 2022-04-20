@@ -1,0 +1,13 @@
+<!--pages/qa/qa.wxml-->
+<view>
+  <view>hello world</view>
+  <view bindtap="changeName">hello {{name}}</view>
+  <view><button type="primary" size="primary" bindtap="changeName">点击改名</button></view>
+</view>
+<h1>
+  <navigator url="../Angiospermae/Angiospermae">点击跳转到被子植物</navigator>
+</h1>
+<h2></h2>
+<h1>
+</h1>
+<view wx:for='{{array}}'>学生{{index}}:{{item}} </view>
